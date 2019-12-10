@@ -1,0 +1,24 @@
+// custom glyphicon
+.glyphicon-circle {
+    &:before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #333;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+}
+
+// To-Do List
+.todo_wrap {
+    .panel-heading:not(:first-child) {
+        border-top-width: 2px;
+        border-top-style: solid;
+    }
+
+    .panel-footer {
+        line-height: 1.1;
+    }
+}
