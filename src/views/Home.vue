@@ -1,12 +1,12 @@
 <template>
-    <div class="row">
-        <div class="col-sm-6 todo_wrap">
+    <main class="app_content">
+        <div class="todo_wrap">
             <to-do-list />
         </div>
-        <div class="col-sm-6 memo_wrap">
+        <div class="memo_wrap">
             <memo-list />
         </div>
-    </div>
+    </main>
 </template>
 
 <script>
