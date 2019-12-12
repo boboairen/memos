@@ -34,7 +34,7 @@
 </template>
 
 <script>
-    // import HelloWorld from '@/components/ToDoList.vue'
+    // import HelloWorld from '@/components/List.vue'
 
     export default {
         name: 'home',
