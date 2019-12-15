@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 // custom glyphicon
 .glyphicon-circle {
     &:before {
@@ -21,4 +23,8 @@
     .panel-footer {
         line-height: 1.1;
     }
+}
+
+.footer {
+    left: 0
 }

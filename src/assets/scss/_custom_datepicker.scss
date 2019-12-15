@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.datepicker {
+    display: none !important
+}
+
+.app_wrap {
+    .vdp-datepicker.open {
+        z-index: 100;
+
+        &:after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.75)
+        }
+    }
+
+    .vdp-datepicker__calendar {
+        top: -10px;
+        left: 50%;
+        margin-left: -150px;
+        border-radius: 5px
+    }
+}

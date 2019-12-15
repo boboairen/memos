@@ -5,6 +5,18 @@
     padding: 10px 15px;
 
     .todo-list-item {
-        padding: 3px 0
+        padding: 3px 0;
+
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .todo_what {
+            float: left;
+            width: calc(100% - 21px - 20px - 12px);
+            margin: 0 3px
+        }
     }
 }

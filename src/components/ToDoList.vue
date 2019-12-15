@@ -1,9 +1,9 @@
 <template>
     <div class="panel panel-warning">
-        <list-header>마감 기한이 있는 할 일</list-header>
+        <list-header mode="deadline">마감 기한이 있는 할 일</list-header>
         <list-body mode="deadline" />
 
-        <list-header>마감 기한이 없는 할 일</list-header>
+        <list-header mode="noneDeadline">마감 기한이 없는 할 일</list-header>
         <list-body mode="noneDeadline" />
     </div>
 </template>

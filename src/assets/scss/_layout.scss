@@ -4,3 +4,22 @@
     padding: 0 15px;
 }
 
+.app_content {
+    @include media('w640') {
+        &.home {
+            .todo_wrap,
+            .memo_wrap {
+                width: calc(50% - 5px)
+            }
+
+            .todo_wrap {
+                float: left;
+            }
+
+            .memo_wrap {
+                float: right;
+            }
+        }
+    }
+    
+}

@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
-import ToDo from '../views/ToDo.vue'
 import Memo from '../views/Memo.vue'
 import MemoView from '../views/MemoView.vue'
 
@@ -13,11 +12,6 @@ const routes = [
         path: '/',
         name: 'home',
         component: Home
-    },
-    {
-        path: '/todo',
-        name: 'ToDo',
-        component: ToDo
     },
     {
         path: '/memo',
